@@ -56,7 +56,7 @@ app.use(downloadfileRoute)
 
 
 
-mongoose.connect('mongodb+srv://ansariruhullah853:Ruhullah2611@cluster0.2xc9rmf.mongodb.net/?retryWrites=true&w=majority').then(()=>{
+mongoose.connect('mongodb+srv://ansariruhullah853:<password>@cluster0.2xc9rmf.mongodb.net/?retryWrites=true&w=majority').then(()=>{
     app.listen(4000,()=>console.log('server started at port 4000'));
 })
 .catch((err)=> console.error(err));
